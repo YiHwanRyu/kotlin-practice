@@ -10,7 +10,7 @@ class SetCalculation {
 
         return when(operator) {
             "+" -> AddOperation()
-            "-" -> SubstractOperation()
+            "-" -> SubtractOperation()
             "*" -> MultiplyOperation()
             "/" -> DivideOperation()
             else -> throw ArithmeticException("잘못된 연산자를 입력했습니다.")
